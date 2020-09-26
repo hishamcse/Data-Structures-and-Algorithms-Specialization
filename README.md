@@ -2,7 +2,8 @@
 This repository contains all the solutions of all assignments, starter files and other materials related to this specialization.
 [Data Structures & Algorithms](https://www.coursera.org/specializations/data-structures-algorithms) <br/><br/>
 
-Course 1 implemented using both C++ & Java. Others are implemented in Java. I will add C++ codes for other courses when my C++ implementation will be completed.<br /><br />
+Course 1 implemented using both C++ & Java. Others are implemented in Java. I will add C++ codes for other courses when my C++ implementation will be completed.<br />
+I will update the repository when the rest of the courses will finished
 
 ### Course 1 (Algorithmic Toolbox [https://www.coursera.org/learn/algorithmic-toolbox])
   * Week 1 - Programming Challenges
