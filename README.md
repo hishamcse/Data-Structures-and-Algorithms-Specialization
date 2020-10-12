@@ -26,8 +26,8 @@ I will update the repository when the rest of the courses will be finished
   * Week 2 - Decomposition of Graphs 2
   * Week 3 - Paths in Graphs 1
   * Week 4 - Paths in Graphs 2
-  * Week 5 - Minimum Spanning Trees
-  *<b> Week 6 - Advanced Shortest Paths Project (Optional)< /b><br /><br />
+  * Week 5 - Minimum Spanning Trees<br />
+  *<b> Week 6 - Advanced Shortest Paths Project (Optional)<br /><br />
   
 ### Course 4 ( [Algorithms On Strings](https://www.coursera.org/learn/algorithms-on-strings) )
   * Week 1 - Suffix Trees
