@@ -35,3 +35,10 @@ I will update the repository when the rest of the courses will be finished
   * Week 3 - Knuth–Morris–Pratt Algorithm
   * Week 4 - Constructing Suffix Arrays and Suffix Trees<br /><br />
   
+### Course 5 ( [Advanced Algorithms & Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity) )
+  * Week 1 - Flows In Networks
+  * Week 2 - Linear Programming
+  * Week 3 - NP-Complete Problems
+  * Week 4 - Coping With NP Completeness
+  * Week 5 - Streaming Algorithms(Optional)
+  
