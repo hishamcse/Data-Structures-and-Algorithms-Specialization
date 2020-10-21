@@ -1,4 +1,0 @@
-"D:\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "F:\[G].Data Structure & Algorithm Courses\Data Structure and algorithms UH California Specialization\COURSE 6\Assignment 1 Solver\ErrorProne"
--- Configuring done
--- Generating done
--- Build files have been written to: F:/[G].Data Structure & Algorithm Courses/Data Structure and algorithms UH California Specialization/COURSE 6/Assignment 1 Solver/ErrorProne/cmake-build-debug
