@@ -40,5 +40,10 @@ I will update the repository when the rest of the courses will be finished
   * Week 2 - Linear Programming
   * Week 3 - NP-Complete Problems
   * Week 4 - Coping With NP Completeness
-  * Week 5 - Streaming Algorithms(Optional)
+  * Week 5 - Streaming Algorithms(Optional)<br /><br />
+  
+### Course 6 ( [Genome Assembly Programming Challenge](https://www.coursera.org/learn/assembling-genomes) )
+  * Week 1 - The 2011 European E. coli Outbreak
+  * Week 2 - Assembling Genomes Using de Bruijn Graphs
+  * Week 3 - Genome Assembly Faces Real Sequencing Data
   
