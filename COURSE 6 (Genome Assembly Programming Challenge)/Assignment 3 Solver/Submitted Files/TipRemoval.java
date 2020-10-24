@@ -7,33 +7,33 @@ public class TipRemoval {
     private static final int K_MER_LEN = 15;
 
     private static Set<String> marked;
-    private static ArrayList<String> postorder;  // vertices in postorder
+    private static ArrayList<String> postorder;
     private static int count;
 
     private static void DeBruijn_Graph_Construction(String[] k_mers, Map<String, Set<String>> adjOut,
                                                     Map<String, Set<String>> adjIn) {
         for (String k_mer : k_mers) {
-            String vertex = k_mer.substring(0, K_MER_LEN - 1);
-            String edge = k_mer.substring(1);
+            String from = k_mer.substring(0, K_MER_LEN - 1);
+            String to = k_mer.substring(1);
 
-            Set<String> out_set = adjOut.get(vertex);
+            Set<String> out_set = adjOut.get(from);
             if (out_set != null) {
-                out_set.add(edge);
-                adjOut.put(vertex, out_set);
+                out_set.add(to);
+                adjOut.put(from, out_set);
             } else {
                 Set<String> newSet = new HashSet<>();
-                newSet.add(edge);
-                adjOut.put(vertex, newSet);
+                newSet.add(to);
+                adjOut.put(from, newSet);
             }
 
-            Set<String> in_set = adjIn.get(edge);
+            Set<String> in_set = adjIn.get(to);
             if (in_set != null) {
-                in_set.add(vertex);
-                adjIn.put(edge, in_set);
+                in_set.add(from);
+                adjIn.put(to, in_set);
             } else {
                 Set<String> newSet = new HashSet<>();
-                newSet.add(vertex);
-                adjIn.put(edge, newSet);
+                newSet.add(from);
+                adjIn.put(to, newSet);
             }
         }
     }
@@ -114,13 +114,12 @@ public class TipRemoval {
             }
         }
 
-        new Thread(null, new Runnable() {     // for stackoverflow error. increasing stack size
-            public void run() {
-                try {
-                    System.out.println(tip_Removal(k_mers.toArray(new String[0])));
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
+        // for stackoverflow error. increasing stack size
+        new Thread(null, () -> {
+            try {
+                System.out.println(tip_Removal(k_mers.toArray(new String[0])));
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
             }
         }, "1", 1 << 26).start();
     }

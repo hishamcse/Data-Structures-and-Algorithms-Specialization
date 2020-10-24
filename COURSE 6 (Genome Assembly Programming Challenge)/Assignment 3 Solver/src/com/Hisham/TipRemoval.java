@@ -116,13 +116,12 @@ public class TipRemoval {
             }
         }
 
-        new Thread(null, new Runnable() {     // for stackoverflow error. increasing stack size
-            public void run() {
-                try {
-                    System.out.println(tip_Removal(k_mers.toArray(new String[0])));
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
+        // for stackoverflow error. increasing stack size
+        new Thread(null, () -> {
+            try {
+                System.out.println(tip_Removal(k_mers.toArray(new String[0])));
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
             }
         }, "1", 1 << 26).start();
     }
