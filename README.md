@@ -44,5 +44,7 @@ Course 1 implemented using both C++ & Java. Others are implemented in Java. I wi
 ### Course 6 ( [Genome Assembly Programming Challenge](https://www.coursera.org/learn/assembling-genomes) )
   * Week 1 - The 2011 European E. coli Outbreak
   * Week 2 - Assembling Genomes Using de Bruijn Graphs
-  * Week 3 - Genome Assembly Faces Real Sequencing Data
+  * Week 3 - Genome Assembly Faces Real Sequencing Data<br /><br />
+  
+##### In my another repository ([Assembler Repo](https://github.com/hishamcse/Simple_Genome_Assembler_PhiX174)) there are full project with some extra implementations
   
