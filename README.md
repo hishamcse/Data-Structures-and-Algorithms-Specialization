@@ -46,5 +46,5 @@ Course 1 implemented using both C++ & Java. Others are implemented in Java. I wi
   * Week 2 - Assembling Genomes Using de Bruijn Graphs
   * Week 3 - Genome Assembly Faces Real Sequencing Data<br /><br />
   
-##### In my another repository ([Assembler Repo](https://github.com/hishamcse/Simple_Genome_Assembler_PhiX174)) there are full project with some extra implementations
+#### In my another repository ([Assembler Repo](https://github.com/hishamcse/Simple_Genome_Assembler_PhiX174)) there are full project with some extra implementations
   
